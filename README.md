@@ -2,7 +2,7 @@
 ## Topico: Hash
 =================
 ## Submissão: 13/03/2019
-[link](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi6lNft2oHhAhWhErkGHegTDtUQjRx6BAgBEAQ&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FCentro_de_Estudos_e_Sistemas_Avan%25C3%25A7ados_do_Recife&psig=AOvVaw0ZZ4rdfVv94KXZqH6j0A-t&ust=1552655565270765)
+[link](https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_CESAR.png)
 =====================
 ## Algoritmo
 * famoso no com ponteiro pro proximo da lista linkada
