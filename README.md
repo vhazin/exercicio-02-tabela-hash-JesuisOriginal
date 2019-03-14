@@ -2,7 +2,7 @@
 ## Topico: Hash
 =================
 ## Submissão: 13/03/2019
-[link](https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_CESAR.png)
+![logo](https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_CESAR.png)
 =====================
 ## Algoritmo
 * famoso no com ponteiro pro proximo da lista linkada
