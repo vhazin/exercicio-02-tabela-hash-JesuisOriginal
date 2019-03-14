@@ -1,7 +1,7 @@
 # exercicio-02-tabela-hash-André Guerra
 ## Topico: Hash
 =================
-## Submissão: --/--/--
+## Submissão: 13/03/2019
 =====================
 ## Algoritmo
 * famoso no com ponteiro pro proximo da lista linkada
