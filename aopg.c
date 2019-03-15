@@ -25,6 +25,20 @@ void init(Linked *list, int n) {
     }
 }
 
+void show(Node *first, int pos)
+{
+
+    Node *temp = first;
+    printf("%d -> ", pos);
+    // if (temp == NULL) printf (" Empty mem ");
+    while (temp != NULL) // executa enquanto existir um proximo
+    {
+        printf("%d -> ", temp->value); // imprime o conteudo daquele endereço-base
+        temp = temp->next;
+    }
+    printf("\\\n"); //imprime '\\ quando vazio e pula linha
+}
+
 void insert(Linked *list, int pos, int value) {
 
     Node *aux = (Node *)malloc(sizeof(Node));
@@ -39,26 +53,13 @@ void insert(Linked *list, int pos, int value) {
     } else {
 
         // printf("linkado ao endereco %d com valor %d\n", pos, value);
-        list[pos].first->next = aux;
-
+        list[pos].last->next = aux;
+        // show(list[pos].first, pos);
     }
     list[pos].last = aux; 
 }
 
-void show(Node *first, int pos) {
 
-    Node *temp = first;
-    printf("%d -> ", pos);
-    // if (temp == NULL) printf (" Empty mem ");
-    while (temp != NULL) // executa enquanto existir um proximo
-    {
-        printf("%d -> ", temp->value); // imprime o conteudo daquele endereço-base
-        temp = temp->next;
-
-    }
-    printf("\\\n"); //imprime '\\ quando vazio e pula linha
-
-}
 
 int main()
 {
@@ -85,7 +86,8 @@ int main()
             
             show(list[j].first, j);
         }
-        if (i + 1 > n) printf("\n");
+        if (i + 1 < n)
+            printf("\n");
     }
 
 
